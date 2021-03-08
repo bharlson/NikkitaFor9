@@ -1,9 +1,9 @@
 <template>
     <main>
       <section id="meet-nikkita">
-        <div class="px-4 lg:px-40 grid grid-cols-1 gap-8 lg:grid-cols-2">
-          <img class="w-100" src="@/assets/img/Nikkita-smile-denim-vest-1000px.jpg" alt="">
-          <div class="col">
+        <div class="p-4 lg:px-40 grid grid-cols-1 gap-8 lg:grid-cols-12">
+          <img class="w-100 lg:col-span-5 xl:col-span-3" src="@/assets/img/Nikkita-smile-denim-vest-1000px.jpg" alt="">
+          <div class="col lg:col-span-7 xl:col-span-9">
             <h2 class="text-center lg:text-left">Meet Nikkita Oliver</h2>
             <p>Nikkita Oliver (they/them) is a community organizer, cultural worker, artist, attorney, and candidate for Seattle City Council Position 9. Nikkita has lived in Seattle, WA since 2004 and has served as a community support and cultural worker with Urban Impact, the Union Gospel Mission’s YROC (Youth Reach Out Center), the Urban Youth Leadership Academy, Seattle Urban Academy, Who’s Next?, Year Up, and Writers in School. They are currently Executive Director of
               <a href="https://www.creativejusticenw.org/" target="_blank">Creative Justice</a>--an arts-based healing-engaged space for youth.  Nikkita Oliver was a founding member of the grassroots
@@ -35,19 +35,19 @@
       <section id="our-values">
         <section-header text="Our Values"></section-header>
         <div class="px-4 md:px-64 xl:px-96 grid grid-cols-1 lg:grid-cols-2">
-          <div class="p-4">
+          <div class="p-4 xl:px-12">
             <img src="https://www.usacustomjackets.com/wp-content/uploads/2016/07/smiley-face.png" alt="" class="w-100 mb-4 p-12">
             <p class="font-bold text-center">Basic Needs and Safety are intertwined</p>
           </div>
-          <div class="p-4">
+          <div class="p-4 xl:px-12">
             <img src="https://www.usacustomjackets.com/wp-content/uploads/2016/07/smiley-face.png" alt="" class="w-100 mb-4 p-12">
             <p class="font-bold text-center">Power comes from the people</p>
           </div>
-          <div class="p-4">
+          <div class="p-4 xl:px-12">
             <img src="https://www.usacustomjackets.com/wp-content/uploads/2016/07/smiley-face.png" alt="" class="w-100 mb-4 p-12">
             <p class="font-bold text-center">We must go beyond survival</p>
           </div>
-          <div class="p-4">
+          <div class="p-4 xl:px-12">
             <img src="https://www.usacustomjackets.com/wp-content/uploads/2016/07/smiley-face.png" alt="" class="w-100 mb-4 p-12">
             <p class="font-bold text-center">Community Listening Posts</p>
           </div>
@@ -60,7 +60,7 @@
       </section><!--/Our Values-->
       <section id="our-policies">
         <section-header text="Our Policies"></section-header>
-        <div class="px-2 grid grid-cols-1">
+        <div class="p-4 lg:px-40 grid grid-cols-1">
           <p class="text-center p-12">The 'Nikkita for 9' campaign is committed to ensuring that this campaign is grounded in community, with mutual aid and collective care at the forefront.</p>
           <table class="auto mx-auto w-100 border-2 border-black-100">
             <tr>
@@ -122,9 +122,32 @@ export default {
 </script>
 
 <style lang="scss">
+  $linkColor: blue;
+  $buttonColor: black;
+  $buttonColorHover: rgb(41, 41, 41);
+
+
   td, th{
     font-size:2rem;
     padding:1rem;
     text-transform: uppercase;
+  }
+
+  a{
+    text-decoration: underline;   
+    &:hover,&:active{
+      font-weight: 500;
+    }
+  }
+
+  button{
+    background-color:$buttonColor;
+    color:#fff;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &:hover,&:active{
+      background-color:$buttonColorHover;
+    }
   }
 </style>

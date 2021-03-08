@@ -44,7 +44,7 @@
                 </div><!--/col-->
             </div>
         </section>
-        <div class="col bg-red-500">
+        <div class="col">
             <h4 class="text-center mb-4">Keep Up with Us on Social Media</h4>
             <p class="text-center"><a href="instagram.com">IG</a><a href="twitter.com">TW</a></p>
         </div><!--/col-->

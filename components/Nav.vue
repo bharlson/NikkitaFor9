@@ -1,23 +1,24 @@
 <template>
 <nav class="bg-white px-8 shadow-md">
-     <div class="-mb-px flex justify-center">
+     <div class="flex justify-center">
          <nuxt-link
          to='/'
-         class="no-underline text-teal-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8">
+         exact
+         class="no-underline text-teal-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8">
              Home
          </nuxt-link>
          <nuxt-link
-         to='/' 
+         to='/our-values' 
          class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8">
              Our Values
          </nuxt-link>
          <nuxt-link
-         to='/' 
+         to='/our-policies' 
          class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8">
              Our Policies
          </nuxt-link>
          <nuxt-link
-         to='/' 
+         to='/about' 
          class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3">
              About
          </nuxt-link>
@@ -34,6 +35,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang='scss'>
+// @import '@/assets/css/tailwind.css';
+.nuxt-link-active{
+  @apply border-black;
+}
 </style>

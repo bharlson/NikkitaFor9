@@ -16,5 +16,10 @@
     button{
         @apply p-4 border-2 border-black
     }
+
+    ol{
+        /* margin:inherit;
+        padding:inherit; */
+    }
   }
 

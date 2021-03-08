@@ -15,6 +15,9 @@ module.exports = {
   variants: {
     extend: {},
   },
+  corePlugins:{
+    listStyleType: false
+  },
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography')
