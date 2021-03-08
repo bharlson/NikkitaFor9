@@ -2,9 +2,10 @@
   <div>
     <Logo></Logo>
     <Nav></Nav>
-    <main class="container mx-auto mt-10 px-10 md:px-20">
+    <div class="mx-auto mt-10">
       <Nuxt />
-    </main>
+    </div>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -14,11 +15,13 @@
 <script>
 import Nav from '@/components/Nav';
 import Logo from '@/components/Logo';
+import Footer from '@/components/Footer';
 
 export default {
   components:{
     Nav,
-    Logo
+    Logo,
+    Footer
   }
 }
 </script>
