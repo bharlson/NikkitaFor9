@@ -3,7 +3,7 @@
       <section id="meet-nikkita">
         <div class="grid grid-cols-1 lg:grid-cols-12">
           <img class="w-100 lg:hidden" src="@/assets/img/home/meet_nikkita_hero.jpg" alt="Meet Nikkita">
-          <div class="meet-nikkita-bg hidden border-y-2 md:col-span-6 lg:block lg:border-b-2"></div>
+          <div class="img-bg img-bg-meet-nikkita hidden border-y-2 md:col-span-6 lg:block lg:border-b-2"></div>
           <div class="flex flex-col bg-gray border-t-2 md:border-t-0 md:border-l-2 md:border-b-2 md:col-span-6">
             <div class="p-12">
               <h3 class="text-center lg:text-left">Meet Nikkita Oliver</h3>
@@ -54,34 +54,43 @@
 
       <section id="our-vision">
         <section-header text="Our Vision for Seattle"></section-header>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-          <div class="flex flex-col">
-            <img src="@/assets/img/home/values_basic_needs_puzzle.jpg" alt="" class="w-100 mb-4">
-            <div class="p-4">
-              <h4 class="font-bold text-center">Basic Needs and Safety are intertwined</h4>
+        <div class="grid grid-cols-1 lg:grid-cols-2
+        border-b-2">
+          <div class="flex flex-col 
+          border-b-2 lg:border-b-0 lg:border-r-2">
+            <!-- <img src="@/assets/img/home/values_basic_needs_puzzle.jpg" alt="" class="w-100 mb-4"> -->
+            <div class="img-bg img-bg-vision img-bg-vision-basic-needs"></div>
+            <div class="p-4 border-t-2">
+              <h4 class="font-bold text-center mt-2">Basic Needs and Safety are intertwined</h4>
             </div>
           </div> <!--/col-->
           <div class="flex flex-col">
-            <img src="@/assets/img/home/values_power_to_the_people_fist.jpg" alt="" class="w-100 mb-4">
-            <div class="p-4">
-              <h4 class="font-bold text-center">Power comes from the people</h4>
+            <div class="img-bg img-bg-vision img-bg-vision-power"></div>
+            <!-- <img src="@/assets/img/home/values_power_to_the_people_fist.jpg" alt="" class="w-100 mb-4"> -->
+            <div class="p-4 border-t-2">
+              <h4 class="font-bold text-center mt-2">Power comes from the people</h4>
             </div>
           </div> <!--/col-->
-        </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-          <div class="flex flex-col">
-            <img src="@/assets/img/home/values_we_must_go_beyond_survival_spaceneedle.jpg" alt="" class="w-100 mb-4">
-            <div class="p-4">
-              <h4 class="font-bold text-center">We must go beyond survival</h4>
+        </div><!--/row 1-->
+
+        <div class="grid grid-cols-1 lg:grid-cols-2
+        border-b-2">
+          <div class="flex flex-col 
+          border-b-2 lg:border-b-0 lg:border-r-2">
+          <div class="img-bg img-bg-vision img-bg-vision-beyond-survival"></div>
+            <div class="p-4 border-t-2">
+              <h4 class="font-bold text-center mt-2">We must go beyond survival</h4>
             </div>
           </div> <!--/col-->
           <div class="flex flex-col ">
-            <img src="@/assets/img/home/values_community_listening_posts_mic.jpg" alt="" class="w-100 mb-4">
-            <div class="p-4">
-              <h4 class="font-bold text-center">Community Listening Posts</h4>
+            <div class="img-bg img-bg-vision img-bg-vision-listening-posts"></div>
+            <!-- <img src="@/assets/img/home/values_community_listening_posts_mic.jpg" alt="" class="w-100 mb-4"> -->
+            <div class="p-4 border-t-2">
+              <h4 class="font-bold text-center mt-2">Community Listening Posts</h4>
             </div>
           </div> <!--/col-->
-        </div>
+        </div><!--/row 2-->
+        
         <p class="text-center my-4">
           <nuxt-link to="/">
             <button>Learn more of our values</button>
@@ -159,7 +168,31 @@ export default {
   $buttonColor: $dark;
   $buttonColorHover: $blue;
 
-  .meet-nikkita-bg{
+  .img-bg{
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;  
+    &-meet-nikkita{
+      background-image: url('@/assets/img/home/meet_nikkita_hero.jpg');   
+    }
+    &-vision{
+      height: 300px;
+      &-basic-needs{
+        background-image: url('assets/img/home/values_basic_needs_puzzle.jpg');
+      }
+      &-power{
+        background-image: url('assets/img/home/values_power_to_the_people_fist.jpg');
+      }
+      &-beyond-survival{
+        background-image: url('assets/img/home/values_we_must_go_beyond_survival_spaceneedle.jpg');
+      }
+      &-listening-posts{
+        background-image: url('assets/img/home/values_community_listening_posts_mic.jpg');
+      }
+    }
+  }
+  .meet-nikkita{
     background-image: url('@/assets/img/home/meet_nikkita_hero.jpg');
     background-size: cover;
     background-position:center;
