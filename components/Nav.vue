@@ -2,7 +2,7 @@
 <nav class="bg-white shadow-md">
     <div
         @click="mobileMenu = !mobileMenu" 
-        class="nav-link mobile-menu-toggle md:hidden md:flex-1 text-center no-underline text-dark border-b-2 border-r-2 border-transparent uppercase tracking-wide font-bold p-3">
+        class="nav-link mobile-menu-toggle md:hidden md:flex-1 ">
         <span class="material-icons">
             {{menuIcon}}
         </span>
@@ -30,8 +30,7 @@
          class="nav-link">
              Policies
          </nuxt-link>
-         <!-- 
-             <nuxt-link
+         <!-- <nuxt-link
          to='/endorsements' 
          class="nav-link">
              Endorsements
@@ -89,7 +88,9 @@ $gray:#f0f0f0;
         background-color:$white;
         color:$dark;
         font-weight:600;
-        
+    }
+    &:last-of-type{
+        border-right: none;
     }
 }
 .mobile-menu-toggle{
