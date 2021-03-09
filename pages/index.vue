@@ -3,7 +3,7 @@
       <section id="meet-nikkita">
         <div class="grid grid-cols-1 lg:grid-cols-12">
           <img class="w-100 lg:hidden" src="@/assets/img/home/meet_nikkita_hero.jpg" alt="Meet Nikkita">
-          <div class="meet-nikkita-bg hidden lg:block border-y-2 md:col-span-6"></div>
+          <div class="meet-nikkita-bg hidden border-y-2 md:col-span-6 lg:block lg:border-b-2"></div>
           <div class="flex flex-col bg-gray border-t-2 md:border-t-0 md:border-l-2 md:border-b-2 md:col-span-6">
             <div class="p-12">
               <h3 class="text-center lg:text-left">Meet Nikkita Oliver</h3>
@@ -15,10 +15,10 @@
                 <a href="https://nonewyouthjail.com/" target="_blank">No New Youth Jail</a> -- all of them building a world which centers collective health and liberation from oppressive systems.
               </p>
             </div>
-            <div class="p-12 border-t-2">
+            <div class="p-12 border-t-2 border-b-2 md:border-b-0">
               <nuxt-link class="normal-case" to="/about">
                 <h3 class="mt-2">Learn more about Nikkita
-                  <span class="material-icons hidden md:d-inline-block">
+                  <span class="material-icons hidden md:inline-block">
                     arrow_right_alt
                   </span>
                 </h3>
@@ -27,32 +27,67 @@
           </div>
         </div><!--/grid-->
       </section><!--/Meet Nikkita-->
-      <section id="our-values">
-        <section-header text="Our Values"></section-header>
-        <div class="px-4 md:px-64 xl:px-96 grid grid-cols-1 lg:grid-cols-2">
-          <div class="p-4 xl:px-12">
-            <img src="https://www.usacustomjackets.com/wp-content/uploads/2016/07/smiley-face.png" alt="" class="w-100 mb-4 p-12">
-            <p class="font-bold text-center">Basic Needs and Safety are intertwined</p>
+      <section id="democracy-vouchers">
+        <section-header text="Help Us Qualify for Democracy Vouchers"></section-header>
+        <div class="bg-gray text-center p-12 md:px-48 lg:px-80 xl:px-96 border-b-2">
+          <h3 class="sans-serif">We need 400 donations and 400 signatures to qualify for Democracy Vouchers</h3>
+          <p>E-sign and donate today</p>
+          <div class="grid grid-cols-2 gap-8 mt-4">
+            <a href="#">
+              <button class="px-4">E-Sign</button>
+            </a>
+            <a href="#">
+              <button class="px-4">Donate</button>
+            </a>
           </div>
-          <div class="p-4 xl:px-12">
-            <img src="https://www.usacustomjackets.com/wp-content/uploads/2016/07/smiley-face.png" alt="" class="w-100 mb-4 p-12">
-            <p class="font-bold text-center">Power comes from the people</p>
-          </div>
-          <div class="p-4 xl:px-12">
-            <img src="https://www.usacustomjackets.com/wp-content/uploads/2016/07/smiley-face.png" alt="" class="w-100 mb-4 p-12">
-            <p class="font-bold text-center">We must go beyond survival</p>
-          </div>
-          <div class="p-4 xl:px-12">
-            <img src="https://www.usacustomjackets.com/wp-content/uploads/2016/07/smiley-face.png" alt="" class="w-100 mb-4 p-12">
-            <p class="font-bold text-center">Community Listening Posts</p>
-          </div>
+        </div>
+        <div class="bg-gray text-center border-b-2 p-12">
+              <nuxt-link class="normal-case" to="/democracy-vouchers">
+                <h3 class="mt-2">Learn more about the democracy voucher program
+                  <span class="material-icons hidden md:inline-block">
+                    arrow_right_alt
+                  </span>
+                </h3>
+              </nuxt-link>          
+        </div>
+      </section><!--/democracy vouchers-->
+
+      <section id="our-vision">
+        <section-header text="Our Vision for Seattle"></section-header>
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="flex flex-col">
+            <img src="@/assets/img/home/values_basic_needs_puzzle.jpg" alt="" class="w-100 mb-4">
+            <div class="p-4">
+              <h4 class="font-bold text-center">Basic Needs and Safety are intertwined</h4>
+            </div>
+          </div> <!--/col-->
+          <div class="flex flex-col">
+            <img src="@/assets/img/home/values_power_to_the_people_fist.jpg" alt="" class="w-100 mb-4">
+            <div class="p-4">
+              <h4 class="font-bold text-center">Power comes from the people</h4>
+            </div>
+          </div> <!--/col-->
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="flex flex-col">
+            <img src="@/assets/img/home/values_we_must_go_beyond_survival_spaceneedle.jpg" alt="" class="w-100 mb-4">
+            <div class="p-4">
+              <h4 class="font-bold text-center">We must go beyond survival</h4>
+            </div>
+          </div> <!--/col-->
+          <div class="flex flex-col ">
+            <img src="@/assets/img/home/values_community_listening_posts_mic.jpg" alt="" class="w-100 mb-4">
+            <div class="p-4">
+              <h4 class="font-bold text-center">Community Listening Posts</h4>
+            </div>
+          </div> <!--/col-->
         </div>
         <p class="text-center my-4">
           <nuxt-link to="/">
             <button>Learn more of our values</button>
           </nuxt-link>
         </p>
-      </section><!--/Our Values-->
+      </section><!--/Our vision-->
       <section id="our-policies">
         <section-header text="Our Policies"></section-header>
         <div class="p-4 lg:px-40 grid grid-cols-1">
@@ -122,7 +157,7 @@ export default {
   $gray: #f0f0f0;
   $linkColor:$dark;
   $buttonColor: $dark;
-  $buttonColorHover: rgb(41, 41, 41);
+  $buttonColorHover: $blue;
 
   .meet-nikkita-bg{
     background-image: url('@/assets/img/home/meet_nikkita_hero.jpg');

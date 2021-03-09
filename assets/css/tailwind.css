@@ -8,7 +8,7 @@
     } */
 
     button{
-        @apply p-4 border-2 border-dark
+        @apply p-4
     }
 
     ol{

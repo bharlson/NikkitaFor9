@@ -53,6 +53,10 @@ button{
     font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
 }
 
+.sans-serif{
+    font-family: 'Open Sans', Verdana, Arial, sans-serif;   
+}
+
 body {
     display: flex;
     min-height: 100vh;
