@@ -10,11 +10,11 @@
 </template>
 
 <style lang='scss'>
-.section-header{
-  &:first-of-type{
-    border-top:none;
-  }
-}
+// .section-header{
+//   &:first-of-type{
+//     border-top:none;
+//   }
+// }
 </style>
 
 <script>

@@ -5,8 +5,7 @@
       <ol>
         <li>
           <p>
-            <b id="#housing-for-all">Housing For All</b> - Seattle is facing a dire housing crisis that city policies can solve. With the city’s Comprehensive Plan implementation on the horizon, now is the time to think big and bold about housing in Seattle.
-            
+            <b id="housing">Housing For All</b> - Seattle is facing a dire housing crisis that city policies can solve. With the city’s Comprehensive Plan implementation on the horizon, now is the time to think big and bold about housing in Seattle.
           </p>
           <ol>
               <li>
@@ -28,7 +27,7 @@
         </li><!--/Housing For All-->
         <li>
           <p>
-            <b id="#divest">Divest from Policing to Invest in Community</b> -  Seattle spends far too much of its revenue on cops and courts, while our communities lack basic necessities. City policies can change to invest in human needs. We must address the root causes of harm, invest in culturally responsive community-led care solutions, and stop punishing people for the failures of the system.
+            <b id="divest">Divest from Policing to Invest in Community</b> -  Seattle spends far too much of its revenue on cops and courts, while our communities lack basic necessities. City policies can change to invest in human needs. We must address the root causes of harm, invest in culturally responsive community-led care solutions, and stop punishing people for the failures of the system.
           </p>
           <ol>
               <li>
@@ -46,7 +45,7 @@
           </ol>
         </li><!--/Divest from Policing to Invest in Community-->
         <li>
-            <p><b>Environmental Justice</b> - A Seattle Green New Deal can eliminate climate pollution by 2030, address historical injustice and to create thousands of good jobs. 
+            <p><b id="environment">Environmental Justice</b> - A Seattle Green New Deal can eliminate climate pollution by 2030, address historical injustice and to create thousands of good jobs. 
             <a href="https://seattlegnd.org/" target="_blank">Seattle for a Green New Deal</a> has already been leading the way and it is time that the City Council follow the lead of the people.</p>
             <ol>
                 <li>In a cosmopolitan, 21st century city, public transportation should be universal and free.</li>
@@ -57,7 +56,7 @@
             </ol>
         </li><!--/Environmental Justice-->
         <li>
-            <p><b>Children, Youth, and Families Deserve to Thrive</b> - City policies can give young people, parents, and households the support they need to thrive -- not just thrive -- in Seattle.</p>
+            <p><b id="children">Children, Youth, and Families Deserve to Thrive</b> - City policies can give young people, parents, and households the support they need to thrive -- not just thrive -- in Seattle.</p>
             <ol>
                 <li>The COVID-19 pandemic has reintroduced the need for municipal broadband internet. We must identify a funding source and timetable to provide this 21st century infrastructure to a 21st century city. </li>
                 <li>Instead of cops and security guards, restorative justice coordinators, family support workers, counselors, and healthcare professionals belong in our schools. We can start by increasing funding to the Seattle Parks and Recreation Department’s My Brother’s Keeper and My Sister’s Keeper initiatives.</li>
@@ -65,7 +64,7 @@
             </ol>
         </li><!--/Children Youth and Families Deserve to Thrive-->
         <li>
-            <p><b>Racial &amp; Economic Justice </b>- The wealth gap in Seattle is unjust and racialized. City policies can help to close it. When we alleviate the burdens of the most marginalized, all will benefit. </p>
+            <p><b id="justice">Racial &amp; Economic Justice </b>- The wealth gap in Seattle is unjust and racialized. City policies can help to close it. When we alleviate the burdens of the most marginalized, all will benefit. </p>
             <ol>
                 <li>Following the recommendations of the City of Seattle’s 2018 “Progressive Revenue Taskforce on Housing and Homelessness,” Seattle must tax the wealthy to support people forced to the bottom of the economy.</li>
                 <li>Seattle has the power to implement commercial rent control. Especially as we recover from COVID-19, this would help reduce the rates of displacement seen in community small businesses, particularly those in the Central Area and South End.</li>
@@ -75,7 +74,7 @@
             </ol>
         </li><!--/Racial and Economic Justice-->
         <li>
-            <p><b>Disaster Relief &amp; Preparing for Disasters</b> - When disaster strikes, people with the most wealth have the easiest time, and poor people and BIPOC are in the most danger. City policies could make a difference in preparing all of Seattle for the next time the air is full of smoke, or for when the next pandemic or earthquake hits us. </p>
+            <p><b id="disaster-relief">Disaster Relief &amp; Preparing for Disasters</b> - When disaster strikes, people with the most wealth have the easiest time, and poor people and BIPOC are in the most danger. City policies could make a difference in preparing all of Seattle for the next time the air is full of smoke, or for when the next pandemic or earthquake hits us. </p>
             <ol>
                 <li>Ensure a just recovery from COVID-19, so that no one loses housing, people can re-enter the workforce, and COVID-19 doesn’t leave Seattle with even worse racial and gender wealth gaps than we had before.</li>
                 <li>Ensure racial, economic, disability, and gender justice in Seattle vaccine distribution planning.</li>
@@ -84,7 +83,7 @@
             </ol>
         </li><!--/Disaster Relief-->
         <li>
-            <p><b>Thriving Sustained Local Arts and Culture Community</b> - Local artists and cultural workers are essential to the health of our communities. Arts and cultural practices promote the mental, social and spiritual health of our communities, and access to the arts helps young people thrive. </p>
+            <p><b id="arts">Thriving Sustained Local Arts and Culture Community</b> - Local artists and cultural workers are essential to the health of our communities. Arts and cultural practices promote the mental, social and spiritual health of our communities, and access to the arts helps young people thrive. </p>
             <ol>
                 <li>Create Arts Centers in areas currently experiencing the highest levels of police surveillance.</li>
                 <li>Protect arts districts and ensure that the cultural workers and artists who have made them vibrant can continue to live and thrive there.</li>
@@ -93,7 +92,7 @@
             </ol>
         </li><!--/Local Arts-->
         <li>
-            <p><b>Universal Healthcare</b> - Healthcare is a human right. Access to quality healthcare, including mental healthcare, should not be dependent upon someone’s employment, marital status, immigration status, or gender. Ensuring that everyone has health care prevents expensive emergency room visits, reduces the spread of disease, and improves everyone’s health in the City, as well as reducing contact with the criminal legal system.</p>
+            <p><b id="healthcare">Universal Healthcare</b> - Healthcare is a human right. Access to quality healthcare, including mental healthcare, should not be dependent upon someone’s employment, marital status, immigration status, or gender. Ensuring that everyone has health care prevents expensive emergency room visits, reduces the spread of disease, and improves everyone’s health in the City, as well as reducing contact with the criminal legal system.</p>
             <ol>
                 <li>Guarantee mental health care to all Seattle residents who want it.</li>
                 <li>Guarantee full-spectrum health support for all Seattle residents who use drugs who want it.</li>
@@ -103,7 +102,7 @@
         </li><!--/Universal Healthcare-->
         <li>
             <p>
-                <b>Democracy and Participation</b>
+                <b id="democracy">Democracy and Participation</b>
                  - We need the people of the City, especially working people, to have more say in what goes on in our city. That means how we develop the city, and how we generate revenue and what we spend it on. 
             </p>
             <ol>

@@ -1,7 +1,7 @@
 <template>
   <footer class="bottom-0">
-      <div class="border-t-2 grid grid-cols-1 lg:grid-cols-2">
-          <section id="volunteer" class="md:border-r-2">
+      <div class="lg:border-t-2 grid grid-cols-1 lg:grid-cols-2">
+          <section id="volunteer" class="lg:border-r-2">
                 <section-header text="Volunteer"></section-header>
                 <div class="bg-gray py-8">
                     <p class="text-center">Volunteer for our campaign by signing up below</p>
@@ -13,7 +13,7 @@
                 </div>
           </section>
           <!--/Sign Up-->
-          <section id="donate" class="border-t-2 md:border-t-0">
+          <section id="donate" class="border-t-2 lg:border-t-0">
               <section-header text="donate"></section-header>
               <div class="bg-gray py-8">
                   <p class="text-center">Donate to our campaign</p>

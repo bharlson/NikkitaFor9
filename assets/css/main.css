@@ -38,9 +38,18 @@ p{
 
 a{
     font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+}
+
+p a{
     text-transform: uppercase;
 }
 
+table{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;   
+}
+td,th{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+}
 
 button{
     font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;

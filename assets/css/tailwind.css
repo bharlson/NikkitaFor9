@@ -8,12 +8,16 @@
     } */
 
     button{
-        @apply p-4
+        @apply py-3 px-8
     }
 
     ol{
         /* margin:inherit;
         padding:inherit; */
+    }
+
+    td{
+      @apply border-t-2 border-b-2
     }
 
     .nav-link{
