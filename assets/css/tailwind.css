@@ -12,5 +12,9 @@
         /* margin:inherit;
         padding:inherit; */
     }
+
+    .nav-link{
+        @apply md:flex-1 text-center no-underline text-dark border-b-2 border-r-2 uppercase tracking-wide font-bold p-3
+    }
   }
 

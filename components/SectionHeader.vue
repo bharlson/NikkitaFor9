@@ -1,6 +1,6 @@
 <template>
-  <div class="w-100 p-4 bg-gray-300">
-      <h2 class="text-center"> {{text}}</h2>
+  <div class="w-100 p-4 bg-white b-2-dark">
+      <h2 class="text-center uppercase"> {{text}}</h2>
   </div>
 </template>
 
