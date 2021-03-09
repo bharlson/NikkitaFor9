@@ -28,7 +28,7 @@
             <a href="#">
               <button class="px-8">E-Sign</button>
             </a>
-            <a href="#">
+            <a href="https://donorbox.org/nikkita-for-the-people" target="_blank">
               <button class="px-8">Donate</button>
             </a>
           </div>

@@ -44,7 +44,7 @@
                             <nuxt-link class="footer-link" to="/endorsements">Endorsements</nuxt-link>
                         </p> -->
                         <p>
-                            <a class="footer-link" href="#">Donate</a>
+                            <a class="footer-link" href="https://donorbox.org/nikkita-for-the-people" target="_blank">Donate</a>
                         </p>
                         <p>
                             <a class="footer-link" href="#">Volunteer</a>

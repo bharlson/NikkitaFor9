@@ -35,7 +35,7 @@
          class="nav-link">
              Endorsements
          </nuxt-link> -->
-         <a href="#" class="nav-link">
+         <a href="https://donorbox.org/nikkita-for-the-people" class="nav-link" target="_blank">
              Donate
          </a>
          <a href="#" class="nav-link">
