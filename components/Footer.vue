@@ -26,13 +26,13 @@
                 <div class="col">
                     <ul class="">
                         <li>
-                            <nuxt-link to="/">ABOUT</nuxt-link>
+                            <nuxt-link to="/about">ABOUT</nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="/">OUR VALUES</nuxt-link>
+                            <nuxt-link to="/our-values">OUR VALUES</nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="/">OUR POLICIES</nuxt-link>
+                            <nuxt-link to="/our-policies">OUR POLICIES</nuxt-link>
                         </li>
                         <li>
                             <nuxt-link to="/">VOLUNTEER</nuxt-link>
@@ -46,7 +46,7 @@
         </section>
         <div class="col">
             <h4 class="text-center mb-4">Keep Up with Us on Social Media</h4>
-            <p class="text-center"><a href="instagram.com">IG</a><a href="twitter.com">TW</a></p>
+            <p class="text-center"><a href="instagram.com">IG</a> <a href="twitter.com">TW</a></p>
         </div><!--/col-->
           <!--/Footer Links-->
 
