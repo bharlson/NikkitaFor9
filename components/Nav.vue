@@ -1,26 +1,34 @@
 <template>
-<nav class="bg-white px-8 shadow-md">
-     <div class="flex justify-center">
+<nav class="bg-white shadow-md">
+    <div
+        @click="mobileMenu = !mobileMenu" 
+        class="nav-link mobile-menu-toggle md:hidden md:flex-1 text-center no-underline text-dark border-b-2 border-r-2 border-transparent uppercase tracking-wide font-bold p-3">
+        <span class="material-icons">
+            {{menuIcon}}
+        </span>
+    </div>
+     <div :class="{'hidden md:flex' : mobileMenu}" 
+     class="flex flex-col md:flex-row">
          <nuxt-link
-         to='/'
-         exact
-         class="no-underline text-teal-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8">
-             Home
+         to='/about' 
+         class="nav-link md:flex-1 text-center no-underline text-dark border-b-2 border-r-2 border-transparent uppercase tracking-wide font-bold p-3">
+             About Nikkita
          </nuxt-link>
-         <nuxt-link
+        <nuxt-link
          to='/our-values' 
-         class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8">
-             Our Values
+         class="nav-link md:flex-1 text-center no-underline text-dark border-b-2 border-r-2 border-transparent uppercase tracking-wide font-bold p-3">
+             Vision
          </nuxt-link>
          <nuxt-link
          to='/our-policies' 
-         class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8">
-             Our Policies
+         class="nav-link md:flex-1 text-center no-underline text-dark border-b-2 border-r-2 border-transparent uppercase tracking-wide font-bold p-3">
+             Policies
          </nuxt-link>
          <nuxt-link
-         to='/about' 
-         class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3">
-             About
+         to='/'
+         exact
+         class="nav-link md:flex-1 text-center no-underline text-dark border-b-2 border-r-2 border-transparent uppercase tracking-wide font-bold p-3">
+             Home
          </nuxt-link>
      </div>
 </nav>
@@ -29,7 +37,19 @@
 <script>
 export default {
     data(){
-
+        return{
+            mobileMenu:true
+        }
+    },
+    computed:{
+        menuIcon(){
+            if(this.mobileMenu){
+                return 'menu'
+            }
+            else{
+                return 'close'
+            }
+        }
     }
 
 }
@@ -37,7 +57,31 @@ export default {
 
 <style lang='scss'>
 // @import '@/assets/css/tailwind.css';
+
 .nuxt-link-active{
   @apply border-black;
+}
+$blue:#00e6ed;
+$dark:#272727;
+$white:#ffffff;
+
+.nav-link{
+    &:hover, &:active{
+        cursor:pointer;
+        background-color:$dark;
+        color:$white;
+        font-weight:600;
+        
+    }
+}
+.mobile-menu-toggle{
+    &:hover, &:active{
+        cursor:pointer;
+    }
+}
+nav{
+    a{
+       font-family: 'Open Sans', Verdana, Arial, sans-serif;  
+    }
 }
 </style>

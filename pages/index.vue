@@ -2,9 +2,9 @@
     <main>
       <section id="meet-nikkita">
         <div class="p-4 lg:px-40 grid grid-cols-1 gap-8 lg:grid-cols-12">
-          <img class="w-100 lg:col-span-5 xl:col-span-3" src="@/assets/img/Nikkita-smile-denim-vest-1000px.jpg" alt="">
-          <div class="col lg:col-span-7 xl:col-span-9">
-            <h2 class="text-center lg:text-left">Meet Nikkita Oliver</h2>
+          <img class="w-100 lg:col-span-6" src="@/assets/img/home/meet_nikkita_hero.jpg" alt="">
+          <div class="col lg:col-span-6">
+            <h3 class="text-center lg:text-left">Meet Nikkita Oliver</h3>
             <p>Nikkita Oliver (they/them) is a community organizer, cultural worker, artist, attorney, and candidate for Seattle City Council Position 9. Nikkita has lived in Seattle, WA since 2004 and has served as a community support and cultural worker with Urban Impact, the Union Gospel Mission’s YROC (Youth Reach Out Center), the Urban Youth Leadership Academy, Seattle Urban Academy, Who’s Next?, Year Up, and Writers in School. They are currently Executive Director of
               <a href="https://www.creativejusticenw.org/" target="_blank">Creative Justice</a>--an arts-based healing-engaged space for youth.  Nikkita Oliver was a founding member of the grassroots
               <a href="https://seattlepeoplesparty.com/" target="_blank">Seattle Peoples Party</a>. And they are a part of several coalitions and organizations in the Seattle/King County region including
@@ -12,22 +12,8 @@
               <a href="https://www.instagram.com/freethemallwa/?hl=en" target="_blank">Free Them All WA</a>, and
               <a href="https://nonewyouthjail.com/" target="_blank">No New Youth Jail</a> -- all of them building a world which centers collective health and liberation from oppressive systems.
             </p>
-              <div class="view-more" v-if="viewMore">
-                <p>As Executive Director of Creative Justice, Nikkita helps lead an innovative, arts-based restorative justice program that keeps at-risk youth from becoming part of the school-to-prison pipeline and provides healing-engaged arts spaces that encourage youth to create the change they need to see in their communities.</p>
-                <p>Creative Justice--along with
-                  <a href="https://choose180.org/" target="_blank">Choose 180</a>,
-                  <a href="https://www.communitypassageways.org/" target="_blank">Community Passageways</a>, and
-                  <a href="https://linktr.ee/collectivejustice" target="_blank">Collective Justice</a>--is an integral part of developing
-                  “<a href="https://www.youtube.com/watch?v=OK-D1XY64yo" target="_blank">Restorative Community Pathways</a>” -- a new community-based and -led restorative justice program in King County. Creative Justice has partnered with
-                  <a href="https://www.communitypassageways.org/" target="_blank">Community Passageways</a> and
-                  <a href="https://www.africatownlandtrust.org/" target="_blank">Africatown Community Land Trust</a> to build the
-                  <a href="https://www.instagram.com/youthachievementcenter/?hl=en" target="_blank">Youth Achievement Center</a>--a housing initiative in the south end of Seattle (aka the Souf End) which will co-locate housing and essential supports for youth and families.
-                </p>
-                <p>While Nikkita may be the candidate, this is OUR campaign. As abolitionist and transformative justice practitioner Mariame Kaba says, “Everything worthwhile is done with others.” </p>
-                <p>We are in the midst of a global pandemic, an economic recession, a racial justice uprising, a housing crisis, and climate catastrophe. The ‘Nikkita For 9’ campaign is committed to ensuring that this campaign is grounded in community, with mutual aid and collective care at the forefront. Our campaign will build community capacity to support each others’ immediate needs while mobilizing for transformative change. We are committed to participating in mutual aid as a radical act of solidarity among neighbors. As a city, we are only as healthy and safe as the neighbor who has the least amount of access. In the coming weeks and months, we look forward to building an evolving and responsive platform which speaks to the lived experiences, vision and needs of those most impacted by systemic oppression and marginalization in our city and region. Together we rise!</p>
-              </div>
-            <p class="mt-4">
-              <a class="font-bold" @click="viewMore = !viewMore"><button>Read full statement</button></a>
+            <p class="my-4">
+              
             </p>
             </div>
           </div><!--/grid-->
@@ -122,8 +108,11 @@ export default {
 </script>
 
 <style lang="scss">
-  $linkColor: blue;
-  $buttonColor: black;
+  $blue: #00e6de;
+  $dark: #272727;
+  $gray: #f0f0f0;
+  $linkColor:$dark;
+  $buttonColor: $dark;
   $buttonColorHover: rgb(41, 41, 41);
 
 
@@ -134,9 +123,10 @@ export default {
   }
 
   a{
-    text-decoration: underline;   
+    color:$dark;
     &:hover,&:active{
       font-weight: 500;
+      color:$blue;
     }
   }
 

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Cooper Black Standard';
+    src: url(assets/fonts/CooperBlackStd.otf);
+  }
+
+
+*{
+    font-family: 'Open Sans', Verdana, Arial, sans-serif;   
+}
+
+h1{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Open Sans', Verdana, Arial, sans-serif;
+    font-size:36px;
+    font-weight: 400;
+}
+h3{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-size:26px;  
+}
+
+p{
+    font-family: 'Open Sans', Verdana, Arial, sans-serif;   
+    font-size: 18px;
+}
+
+a{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+button{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    line-height: inherit;
+    letter-spacing: 0.15em;
+}
