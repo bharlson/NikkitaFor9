@@ -18,7 +18,7 @@
               <div class="bg-gray py-8">
                   <p class="text-center">Donate to our campaign</p>
                   <p class="mt-4 text-center">
-                    <a href="">
+                    <a href="https://donorbox.org/nikkita-for-the-people" target="_blank">
                         <button>DONATE HERE</button>
                     </a>
                   </p>
