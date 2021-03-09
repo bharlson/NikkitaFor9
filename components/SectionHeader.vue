@@ -1,6 +1,6 @@
 <template>
-  <div class="w-100 p-4 bg-white b-2-dark">
-      <h2 class="text-center uppercase"> {{text}}</h2>
+  <div class="section-header w-100 p-4 bg-white border-t-2 border-b-2 capitalize">
+      <h2 class="text-center pt-2"> {{text}}</h2>
   </div>
 </template>
 
@@ -18,6 +18,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang='scss'>
 </style>

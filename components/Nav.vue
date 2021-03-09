@@ -21,12 +21,12 @@
              About Nikkita
          </nuxt-link>
         <nuxt-link
-         to='/our-values' 
+         to='/vision' 
          class="nav-link">
              Vision
          </nuxt-link>
          <nuxt-link
-         to='/our-policies' 
+         to='/policies' 
          class="nav-link">
              Policies
          </nuxt-link>

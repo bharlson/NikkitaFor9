@@ -2,14 +2,19 @@
   <div>
     <Logo></Logo>
     <Nav></Nav>
-    <div class="mx-auto mt-10">
+    <div class="mx-auto flex-grow">
       <Nuxt />
     </div>
     <Footer></Footer>
   </div>
 </template>
 
-<style>
+<style lang='scss'>
+.section-header{
+  &:first-of-type{
+    border-top:none;
+  }
+}
 </style>
 
 <script>

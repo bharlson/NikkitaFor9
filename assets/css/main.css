@@ -24,6 +24,12 @@ h3{
     font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
     font-size:26px;  
 }
+h4{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-size:18px;
+    margin-bottom: 0.5rem;
+
+}
 
 p{
     font-family: 'Open Sans', Verdana, Arial, sans-serif;   
@@ -36,10 +42,23 @@ a{
 }
 
 
-
 button{
     font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
     line-height: inherit;
     padding-top: 1.25rem;
     letter-spacing: 0.15em;
 }
+
+.serif{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1; /* Or flex-grow: 1;*/
+  }

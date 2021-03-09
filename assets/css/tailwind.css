@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+    /* body{
+      @apply flex flex-col min-h-screen
+    } */
 
     button{
         @apply p-4 border-2 border-dark
