@@ -216,7 +216,7 @@
             </tr>
           </table>
         </div><!--/img-bg-->
-        <section-footer-link class="border-b-0" text="Learn more about our policies" path="about"></section-footer-link>
+        <section-footer-link style="border-bottom:none;" class="border-b-0" text="Learn more about our policies" path="about"></section-footer-link>
       </section><!--/Policies-->
     </main>
 </template>

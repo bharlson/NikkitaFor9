@@ -1,6 +1,6 @@
 <template>
   <footer class="bottom-0">
-      <div class="lg:border-t-2 grid grid-cols-1 lg:grid-cols-2">
+      <div class="border-t-2 grid grid-cols-1 lg:grid-cols-2">
           <section id="volunteer" class="lg:border-r-2">
                 <section-header text="Volunteer"></section-header>
                 <div class="bg-gray py-8">
