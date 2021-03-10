@@ -28,9 +28,30 @@ export default {
         return{
             endorsements:[
                           {
+                            "name": "CM Tammy Morales",
+                            "title": "Seattle City Council District 2"
+                          },
+                          {
+                            "name": "Mike O'Brien",
+                            "title": "Former Seattle City Councilmember"
+                          },
+                          {
                             "name": "Velma Veloria",
                             "title": "Former State Rep. 11th District"
                           },
+                          {
+                            "name": "Rep Tarra Simmons ",
+                            "title": "State Rep District 23 - Position 1"
+                          },
+                          {
+                            "name": "Rep Kirsten Harris-Talley ",
+                            "title": "WA Sate Rep. 37th LD"
+                          },
+                          {
+                            "name": "Rep Jesse Johnson",
+                            "title": "State Rep LD 30th"
+                          },
+
                           {
                             "name": "Sutapa Basu",
                             "title": "Executive Director, Alene Morris Women's Center at UW"
@@ -44,15 +65,11 @@ export default {
                             "title": "Muscian"
                           },
                           {
-                            "name": "Rep Tarra Simmons ",
-                            "title": "State Rep District 23 - Position 1"
-                          },
-                          {
-                            "name": "Rep Jesse Johnson",
-                            "title": "State Rep LD 30th"
-                          },
-                          {
                             "name": "IUPAT DC 5",
+                            "title": ""
+                          },
+                          {
+                            "name": "Seattle Peoples Party",
                             "title": ""
                           },
                           {
@@ -84,16 +101,8 @@ export default {
                             "title": "Editor for Rethinking Schools, Orgnaizer with Black Lives Matter in School"
                           },
                           {
-                            "name": "Rep Kirsten Harris-Talley ",
-                            "title": "WA Sate Rep. 37th LD"
-                          },
-                          {
                             "name": "Coach Dominique Davis",
                             "title": "CEO & Founder of Community Passageways"
-                          },
-                          {
-                            "name": "CM Tammy Morales",
-                            "title": "Seattle City Council District 2"
                           },
                           {
                             "name": "Ijeoma Oluo",
@@ -103,10 +112,7 @@ export default {
                             "name": "Katrina Johnson",
                             "title": "Families on the Frontline, Washington Coalition for Police Accountability"
                           },
-                          {
-                            "name": "Mike O'Brien",
-                            "title": "Former Seattle City Councilmember"
-                          },
+
                           {
                             "name": "Robel Woldu",
                             "title": "Owner of AthleticForm"
@@ -122,10 +128,6 @@ export default {
                           {
                             "name": "Deaunte Damper",
                             "title": "Community Activist"
-                          },
-                          {
-                            "name": "Seattle Peoples Party",
-                            "title": "LOGO: https://drive.google.com/file/d/1WiU8NtBRGSGilC0IB6U1a1asadEmakJF/view?usp=sharing"
                           },
                           {
                             "name": "Rev. Ellie VerGowe",
