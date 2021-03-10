@@ -30,15 +30,15 @@
          class="nav-link">
              Policies
          </nuxt-link>
-         <!-- <nuxt-link
+         <nuxt-link
          to='/endorsements' 
          class="nav-link">
              Endorsements
-         </nuxt-link> -->
+         </nuxt-link>
          <a href="https://donorbox.org/nikkita-for-the-people" class="nav-link" target="_blank">
              Donate
          </a>
-         <a href="#" class="nav-link">
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLScNnprVl_e9xSKCRl5mKBoMF2IF0p0snqB6j6d9pJCZaBQRTw/viewform" class="nav-link" target="_blank">
              Volunteer
          </a>
 

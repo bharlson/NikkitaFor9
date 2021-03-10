@@ -251,7 +251,7 @@ export default {
     width: 100%;
     // height: 100%;  
     &-meet-nikkita{
-      background-image: url('@/assets/img/home/meet_nikkita_hero.jpg');   
+      background-image: url('@/assets/img/home/meet_nikkita_hero-color.jpg');   
     }
     &-vision{
       height: 300px;
@@ -301,6 +301,8 @@ export default {
 
     &:hover,&:active{
       background-color:$buttonColorHover;
+      color:$dark;
+      cursor:pointer;
     }
   }
 </style>

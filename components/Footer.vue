@@ -6,7 +6,7 @@
                 <div class="bg-gray py-8">
                     <p class="text-center">Volunteer for our campaign by signing up below</p>
                     <p class="mt-4 text-center">
-                        <a href="">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScNnprVl_e9xSKCRl5mKBoMF2IF0p0snqB6j6d9pJCZaBQRTw/viewform" target="_blank">
                             <button>SIGN UP</button>
                         </a>
                     </p>
@@ -47,7 +47,7 @@
                             <a class="footer-link" href="https://donorbox.org/nikkita-for-the-people" target="_blank">Donate</a>
                         </p>
                         <p>
-                            <a class="footer-link" href="#">Volunteer</a>
+                            <a class="footer-link" href="https://docs.google.com/forms/d/e/1FAIpQLScNnprVl_e9xSKCRl5mKBoMF2IF0p0snqB6j6d9pJCZaBQRTw/viewform" target="_blank">Volunteer</a>
                         </p>
                   </section>
                   <section id="contact">

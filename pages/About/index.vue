@@ -44,7 +44,7 @@ export default {
 
 <style lang='scss'>
 .img-bg-about-hero{
-    background-image: url('assets/img/about/nikkita_oliver_hero.jpg');
+    background-image: url('assets/img/about/about_nikkita_oliver_hero-color.jpg');
     height: 200px;
     background-position:left;
 
