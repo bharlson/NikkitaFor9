@@ -8,6 +8,7 @@
     .header-title{
         &:hover, &:active{
             cursor: pointer;
+            opacity:0.9;
         }
     }
 </style>
