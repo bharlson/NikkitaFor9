@@ -2,7 +2,7 @@
     <main>
       <section id="meet-nikkita">
         <div class="grid grid-cols-1 lg:grid-cols-12">
-          <img class="w-100 lg:hidden" src="@/assets/img/home/meet_nikkita_hero.jpg" alt="Meet Nikkita">
+          <img class="w-100 lg:hidden" src="@/assets/img/home/meet_nikkita_hero-color.jpg" alt="Meet Nikkita">
           <div class="img-bg img-bg-meet-nikkita hidden border-y-2 md:col-span-6 lg:block lg:border-b-2"></div>
           <div class="flex flex-col bg-gray border-t-2 lg:border-t-0 lg:border-l-2 lg:border-b-2 md:col-span-6">
             <div class="p-12">
