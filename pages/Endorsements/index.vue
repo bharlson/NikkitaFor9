@@ -162,7 +162,7 @@ export default {
                           },
                           {
                             "name": "Shomya Tripathy *",
-                            "title": "Director of Policy and Civic Engagement at Asian Counseling and Referal Services and Seattle South Asian for black lives"
+                            "title": "Director of Policy and Civic Engagement at Asian Counseling and Referal Services and Seattle South Asians for Black Lives"
                           },
                           {
                             "name": "Lalita Uppala *",
