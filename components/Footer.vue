@@ -65,6 +65,7 @@
                       <div class="flex mt-4">
                           <a href="https://instagram.com/Nikkita4Nine/" target="_blank">
                               <img class="w-10 mr-4" src="@/assets/img/icons/instagram.png" alt="instagram">
+                              ig
                           </a>
 
                           <a href="https://twitter.com/Nikkita4Nine/" target="_blank">
