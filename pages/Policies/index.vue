@@ -1,7 +1,7 @@
 <template>
     <main class="bg-gray">
     <section-header class="mt-0" text="Our Policies"></section-header>
-    <div class="single-col-body lg:px-24">
+    <div class="single-col-body lg:px-12">
         <white-card
         class="mb-4" 
         number="1"
