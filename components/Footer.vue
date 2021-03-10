@@ -54,7 +54,7 @@
                   </section>
                   <section id="contact">
                       <h4>Contact</h4>
-                      <p><a class="text-sm md:text-base footer-link" href="mailto:info@nikkita4nine.com">Information</a></p>
+                      <p><a class="text-sm md:text-base footer-link" href="mailto:info@nikkita4nine.com">Email Us</a></p>
                       <p>
                           <em>Photos Courtesy of Alex Garland and Jake Gravbot</em>
                       </p>
