@@ -1,11 +1,7 @@
 <template>
   <main >
     <section-header text="Endorsements"></section-header>
-    <!-- <p v-for="i in endorsements" :key="i.text">
-      {{i.name}}, {{i.title}}
-    </p> -->
-
-      <div class="bg-gray p-4 md:px-24 lg:px-40 grid grid-cols-1 lg:grid-cols-2 gap-4 mx-auto">
+    <div class="bg-gray p-4 md:px-24 lg:px-40 grid grid-cols-1 lg:grid-cols-2 gap-4 mx-auto pb-12">
       <white-card
         class="text-center w-100"
         v-for="i in endorsements" 
@@ -14,7 +10,7 @@
         :text="i.title"
         >
       </white-card>
-      </div>
+    </div>
 
   </main>
 </template>
@@ -49,7 +45,7 @@ export default {
                           },
                           {
                             "name": "Rep Jesse Johnson",
-                            "title": "State Rep LD 30th"
+                            "title": "State Rep 30th LD"
                           },
 
                           {

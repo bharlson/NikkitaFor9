@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap');
 @font-face {
     font-family: 'Cooper Black Standard';
     src: url(assets/fonts/CooperBlackStd.otf);
@@ -11,21 +11,21 @@
 }
 
 h1{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     font-size: 42px;
     font-weight: 700;
 }
 h2{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     font-size:36px;
     font-weight: 400;
 }
 h3{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     font-size:26px;  
 }
 h4{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     font-size:18px;
     margin-bottom: 0.5rem;
 
@@ -38,7 +38,7 @@ p{
 }
 
 .serif{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
 }
 
 .sans-serif{
@@ -47,7 +47,7 @@ p{
 
 /* Links */
 a{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
 }
 a:hover{
     cursor:pointer;
@@ -60,14 +60,14 @@ p a{
 }
 
 table{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;   
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;   
 }
 td,th{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
 }
 
 button{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     line-height: inherit;
     padding-top: 1.25rem;
     letter-spacing: 0.15em;
