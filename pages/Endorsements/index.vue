@@ -61,7 +61,7 @@ export default {
                           },
                           {
                             "name": "Jerrell Davis",
-                            "title": "Muscian"
+                            "title": "Musician"
                           },
                           {
                             "name": "IUPAT DC 5",
@@ -93,11 +93,11 @@ export default {
                           },
                           {
                             "name": "Jaelynn Scott *",
-                            "title": "Executive Director of Lavendar Rights Project"
+                            "title": "Executive Director of Lavender Rights Project"
                           },
                           {
                             "name": "Jesse Hagopian *",
-                            "title": "Editor for Rethinking Schools, Orgnaizer with Black Lives Matter in School"
+                            "title": "Editor for Rethinking Schools, Organizer with Black Lives Matter in School"
                           },
                           {
                             "name": "Coach Dominique Davis *",
@@ -162,7 +162,7 @@ export default {
                           },
                           {
                             "name": "Shomya Tripathy *",
-                            "title": "Director of Policy and Civic Engagement at Asian Counseling and Referal Services and Seattle South Asians for Black Lives"
+                            "title": "Director of Policy and Civic Engagement at Asian Counseling and Referral Services and Seattle South Asians for Black Lives"
                           },
                           {
                             "name": "Lalita Uppala *",
