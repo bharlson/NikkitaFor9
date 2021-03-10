@@ -249,7 +249,7 @@ export default {
     background-size: cover;
     background-position:center;
     width: 100%;
-    height: 100%;  
+    // height: 100%;  
     &-meet-nikkita{
       background-image: url('@/assets/img/home/meet_nikkita_hero.jpg');   
     }

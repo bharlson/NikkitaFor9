@@ -5,7 +5,7 @@
     src: url(assets/fonts/CooperBlackStd.otf);
   }
 
-
+/* Typography */
 *{
     font-family: 'Open Sans', Verdana, Arial, sans-serif;   
 }
@@ -36,10 +36,24 @@ p{
     font-size: 16px;
 }
 
-a{
+.serif{
     font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
 }
 
+.sans-serif{
+    font-family: 'Open Sans', Verdana, Arial, sans-serif;   
+}
+
+/* Links */
+a{
+    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
+}
+a:hover{
+    cursor:pointer;
+}
+button:hover{
+    cursor:pointer;
+}
 p a{
     text-transform: uppercase;
 }
@@ -58,13 +72,7 @@ button{
     letter-spacing: 0.15em;
 }
 
-.serif{
-    font-family: 'Cooper Black Standard', 'Times New Roman', Times, serif, sans-serif;
-}
 
-.sans-serif{
-    font-family: 'Open Sans', Verdana, Arial, sans-serif;   
-}
 
 body {
     display: flex;
