@@ -31,32 +31,34 @@
               <div class="grid grid-cols-2 gap-4 md:gap-8 md:grid-cols-3">
                   <section id="explore">
                         <h4>Explore</h4>
-                        <p>
-                            <nuxt-link class="footer-link" to="/about">Meet Nikkita</nuxt-link>
-                        </p>
-                        <p>
-                            <nuxt-link class="footer-link" to="/vision">Vision</nuxt-link>
-                        </p>
-                        <p>
-                            <nuxt-link class="footer-link" to="/policies">Policies</nuxt-link>
-                        </p>
-                        <!-- <p>
-                            <nuxt-link class="footer-link" to="/endorsements">Endorsements</nuxt-link>
-                        </p> -->
-                        <p>
-                            <a class="footer-link" href="https://donorbox.org/nikkita-for-the-people" target="_blank">Donate</a>
-                        </p>
-                        <p>
-                            <a class="footer-link" href="https://docs.google.com/forms/d/e/1FAIpQLScNnprVl_e9xSKCRl5mKBoMF2IF0p0snqB6j6d9pJCZaBQRTw/viewform" target="_blank">Volunteer</a>
-                        </p>
+                        <ul>
+                            <li>
+                                <nuxt-link class="footer-link" to="/about">Meet Nikkita</nuxt-link>
+                            </li>
+                            <li>
+                                <nuxt-link class="footer-link" to="/vision">Vision</nuxt-link>
+                            </li>
+                            <li>
+                                <nuxt-link class="footer-link" to="/policies">Policies</nuxt-link>
+                            </li>
+                            <li>
+                                <nuxt-link class="footer-link" to="/endorsements">Endorsements</nuxt-link>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="https://donorbox.org/nikkita-for-the-people" target="_blank">Donate</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="https://docs.google.com/forms/d/e/1FAIpQLScNnprVl_e9xSKCRl5mKBoMF2IF0p0snqB6j6d9pJCZaBQRTw/viewform" target="_blank">Volunteer</a>
+                            </li>
+                        </ul>
                   </section>
                   <section id="contact">
                       <h4>Contact</h4>
                       <p><a class="footer-link" href="mailto:info@nikkita4nine.com">info@nikkita4nine.com</a></p>
                       <p>
-                          <em>Photos Courtesy of Alec Carland and Jake Gravbot</em>
+                          <em>Photos Courtesy of Alex Garland and Jake Gravbot</em>
                       </p>
-                      <p class="my-4 serif">Paid for by The People for Nikkita Oliver</p>
+                      <p class="my-4 serif">Paid for by Nikkita for the People</p>
                   </section>
                   <section id="social-media" class="col-span-2 md:col-span-1">
                       <h4 class="text-white">Social Media</h4>
