@@ -1,6 +1,7 @@
 {
-  "name": "Nikkita-Oliver-2021",
+  "name": "Nikkita 4 Nine",
   "version": "1.0.0",
+  "description": "Nikkita Oliver (they/them) is a community organizer, cultural worker, artist, attorney, and candidate for Seattle City Council Position 9. Nikkita has lived in Seattle, WA since 2004 and has served as a community support and cultural worker with Urban Impact, the Union Gospel Mission’s YROC (Youth Reach Out Center), the Urban Youth Leadership Academy, Seattle Urban Academy, Who’s Next?, Year Up, and Writers in School. They are currently Executive Director of CREATIVE JUSTICE--an arts-based healing-engaged space for youth. Nikkita Oliver was a founding member of the grassroots SEATTLE PEOPLES PARTY. And they are a part of several coalitions and organizations in the Seattle/King County region including DECRIMINALIZE SEATTLE, FREE THEM ALL WA, and NO NEW YOUTH JAIL -- all of them building a world which centers collective health and liberation from oppressive systems.",
   "private": true,
   "scripts": {
     "dev": "nuxt",
