@@ -63,11 +63,11 @@
                   <section id="social-media" class="col-span-2 md:col-span-1">
                       <h4 class="text-white">Social Media</h4>
                       <div class="flex mt-4">
-                          <a href="instagram.com" target="_blank">
+                          <a href="https://instagram.com/Nikkita4Nine" target="_blank">
                               <img class="w-10 mr-4" src="@/assets/img/icons/instagram.png" alt="instagram">
                           </a>
 
-                          <a href="twitter.com" target="_blank">
+                          <a href="https://twitter.com/Nikkita4Nine" target="_blank">
                               <img class="w-10" src="@/assets/img/icons/twitter.png" alt="instagram">
                           </a>
                       </div>
@@ -98,5 +98,8 @@ $gray:#f0f0f0;
     color:$white;
     margin-bottom: 0.5rem;
     display: block;
+    &:hover,&:active{
+        cursor: pointer;
+    }
 }
 </style>
