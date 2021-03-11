@@ -1,9 +1,8 @@
 <template>
 <main class="bg-gray">
-    <div class="img-bg img-bg-about-hero"></div>
     <section-header text="Meet Nikkita Oliver"></section-header>
+    <div class="img-bg img-bg-about-hero"></div>
     <div class="single-col-body">
-        <h3 class="text-center lg:text-left">Meet Nikkita Oliver</h3>
         <p>Nikkita Oliver (they/them) is a community organizer, cultural worker, artist, attorney, and candidate for Seattle City Council Position 9. Nikkita has lived in Seattle, WA since 2004 and has served as a community support and cultural worker with Urban Impact, the Union Gospel Mission’s YROC (Youth Reach Out Center), the Urban Youth Leadership Academy, Seattle Urban Academy, Who’s Next?, Year Up, and Writers in School. They are currently Executive Director of
         <a href="https://www.creativejusticenw.org/" target="_blank">Creative Justice</a>--an arts-based healing-engaged space for youth.  Nikkita Oliver was a founding member of the grassroots
         <a href="https://seattlepeoplesparty.com/" target="_blank">Seattle Peoples Party</a>. And they are a part of several coalitions and organizations in the Seattle/King County region including
