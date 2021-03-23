@@ -74,7 +74,7 @@ button{
 }
 
 
-
+/* 
 body {
     display: flex;
     min-height: 100vh;
@@ -82,5 +82,5 @@ body {
   }
   
   main {
-    flex: 1; /* Or flex-grow: 1;*/
-  }
+    flex: 1; 
+  } */

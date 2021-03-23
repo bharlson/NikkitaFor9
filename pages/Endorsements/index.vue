@@ -65,15 +65,23 @@ export default {
                           },
                           {
                             "name": "IUPAT DC 5",
-                            "title": ""
+                            "title": "Labor Union"
                           },
                           {
                             "name": "Seattle Peoples Party",
                             "title": ""
                           },
                           {
-                            "name": "The Station",
+                            "name": "Emerald Youth Organizing Collective",
                             "title": ""
+                          },
+                          {
+                            "name": "SEE",
+                            "title": "Social Equity Educators"
+                          },
+                          {
+                            "name": "The Station",
+                            "title": "Local Small Business"
                           },
                           {
                             "name": "Jose Luis Rodriguez *",
