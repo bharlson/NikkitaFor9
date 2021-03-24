@@ -15,7 +15,7 @@
                 <a href="https://nonewyouthjail.com/" target="_blank">No New Youth Jail</a> -- all of them building a world which centers collective health and liberation from oppressive systems.
               </p>
             </div>
-            <section-footer-link left="true" text="Learn more about Nikkita" path="about"></section-footer-link>
+            <section-footer-link text="Learn more about Nikkita" path="about"></section-footer-link>
           </div>
         </div><!--/grid-->
       </section><!--/Meet Nikkita-->

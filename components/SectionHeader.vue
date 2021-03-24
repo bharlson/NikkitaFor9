@@ -6,17 +6,8 @@
 
 <script>
 export default {
-    data(){
-        return{
-            text:''
-        }
-    },
     props:{
         text: String
     }
-
 }
 </script>
-
-<style lang='scss'>
-</style>
