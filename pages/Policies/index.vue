@@ -173,11 +173,6 @@
 import SectionHeader from '@/components/SectionHeader.vue'
 import WhiteCard from '@/components/WhiteCard.vue'
 export default {
-    data(){
-        return{
-            
-        }
-    },
     components: {
         SectionHeader,
         WhiteCard

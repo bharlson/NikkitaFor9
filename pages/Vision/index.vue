@@ -37,11 +37,6 @@ import GrayCard from '@/components/GrayCard';
 import SectionHeader from '@/components/SectionHeader';
 
 export default {
-    data(){
-        return{
-
-        }
-    },
     components:{
       GrayCard,
       SectionHeader

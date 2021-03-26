@@ -68,14 +68,6 @@ export default {
 </script>
 
 <style lang='scss'>
-
-// @import '@/assets/css/tailwind.css';
-
-$blue:#00e6ed;
-$dark:#272727;
-$white:#ffffff;
-$gray:#f0f0f0;
-
 .nav-link.nuxt-link-active{
     // border-color:$blue;
     background-color: $white;

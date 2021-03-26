@@ -10,14 +10,6 @@
   </div>
 </template>
 
-<style lang='scss'>
-// .section-header{
-//   &:first-of-type{
-//     border-top:none;
-//   }
-// }
-</style>
-
 <script>
 import Nav from '@/components/Nav';
 import Logo from '@/components/Logo';

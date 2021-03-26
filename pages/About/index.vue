@@ -30,11 +30,6 @@
 import SectionHeader from '@/components/SectionHeader';
 
 export default {
-    data(){
-        return{
-            
-        }
-    },
   components:{
     SectionHeader
   }
@@ -51,7 +46,4 @@ export default {
         height:500px;
     }
 }
-
-
-
 </style>

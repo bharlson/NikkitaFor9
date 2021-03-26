@@ -10,76 +10,58 @@
     font-family: 'Open Sans', Verdana, Arial, sans-serif;   
 }
 
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+a, button, h1, h2, h3, h4, table, td, th, .serif, .sans-serif {
+    font-family: 'Cooper Black Standard', 'Corben', 'Times New Roman', serif, sans-serif;
+}
+
 h1{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     font-size: 42px;
     font-weight: 700;
 }
+
 h2{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     font-size:36px;
     font-weight: 400;
 }
+
 h3{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     font-size:26px;  
 }
+
 h4{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     font-size:18px;
     margin-bottom: 0.5rem;
 
 }
 
 p{
-    font-family: 'Open Sans', Verdana, Arial, sans-serif;   
     font-size: 16px;
     margin-bottom: 1rem;
 }
 
-.serif{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
-}
-
-.sans-serif{
+p, .sans-serif {
     font-family: 'Open Sans', Verdana, Arial, sans-serif;   
 }
 
-/* Links */
-a{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
-}
-a:hover{
+a:hover, button:hover{
     cursor:pointer;
 }
-button:hover{
-    cursor:pointer;
-}
+
 p a{
     text-transform: uppercase;
 }
 
-table{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;   
-}
-td,th{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
-}
-
 button{
-    font-family: 'Cooper Black Standard', 'Corben',  'Times New Roman', 'Corben', Times, serif, sans-serif;
     line-height: inherit;
     padding-top: 1.25rem;
     letter-spacing: 0.15em;
 }
-
-
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
   
 main {
     flex: 1; /* Or flex-grow: 1;*/
