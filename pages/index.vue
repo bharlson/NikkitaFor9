@@ -15,13 +15,13 @@
                 <a href="https://nonewyouthjail.com/" target="_blank">No New Youth Jail</a> -- all of them building a world which centers collective health and liberation from oppressive systems.
               </p>
             </div>
-            <section-footer-link text="Learn more about Nikkita" path="about"></section-footer-link>
+            <section-footer-link left="true" text="Learn more about Nikkita" path="about"></section-footer-link>
           </div>
         </div><!--/grid-->
       </section><!--/Meet Nikkita-->
       <section id="democracy-vouchers">
-        <section-header text="Help Us Qualify for Democracy Vouchers"></section-header>
-        <div class="bg-gray text-center p-12 md:px-48 lg:px-80 xl:px-96">
+        <section-header text="Get Involved Today!"></section-header>
+        <!-- <div class="bg-gray text-center p-12 md:px-48 lg:px-80 xl:px-96">
           <h3 class="sans-serif">We need 400 donations and 400 signatures to qualify for Democracy Vouchers</h3>
           <p>E-sign and donate at least $10 today</p>
           <div class="grid grid-cols-2 gap-8 mt-4">
@@ -34,10 +34,40 @@
               <button class="px-8">Donate</button>
             </a>
           </div>
-        </div>
-        <section-footer-link text="Learn more about the democracy voucher program" path="democracy-vouchers"></section-footer-link>
+        </div> -->
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <section id="volunteer" class="lg:border-r-2">
+                <section-header text="Volunteer"></section-header>
+                <div class="bg-gray py-8">
+                    <p class="text-center">Volunteer for our campaign by signing up below</p>
+                    <p class="mt-4 text-center">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScNnprVl_e9xSKCRl5mKBoMF2IF0p0snqB6j6d9pJCZaBQRTw/viewform" target="_blank">
+                            <button>SIGN UP</button>
+                        </a>
+                    </p>
+                </div>
+          </section>
+          <!--/Sign Up-->
+          <section id="donate" class="border-t-2 lg:border-t-0">
+              <section-header text="donate"></section-header>
+              <div class="bg-gray py-8">
+                  <p class="text-center">Donate to our campaign</p>
+                  <p class="mt-4 text-center">
+                    <a href="https://donorbox.org/nikkita-for-the-people" target="_blank">
+                        <button>DONATE HERE</button>
+                    </a>
+                  </p>
+              </div>
+          </section>
+          <!--/Donate-->
+      </div>
+        <section-footer-link 
+        text="Submit your Democracy Vouchers online!" 
+        path="http://tinyurl.com/SeattleVouchers"
+        external
+        >
+        </section-footer-link>
       </section><!--/democracy vouchers-->
-
       <section id="our-vision">
         <section-header class="lg:border-t-2" text="Our Vision for Seattle"></section-header>
         <div class="grid grid-cols-1 lg:grid-cols-2
