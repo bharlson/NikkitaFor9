@@ -68,7 +68,6 @@
         >
         </section-footer-link>
       </section><!--/democracy vouchers-->
-
       <section id="our-vision">
         <section-header class="lg:border-t-2" text="Our Vision for Seattle"></section-header>
         <div class="grid grid-cols-1 lg:grid-cols-2
@@ -270,14 +269,6 @@ export default {
 </script>
 
 <style lang="scss">
-  $blue: #00e6de;
-  $dark: #272727;
-  $gray: #f0f0f0;
-  $white: #ffffff;
-  $linkColor:$dark;
-  $buttonColor: $dark;
-  $buttonColorHover: $blue;
-
   .img-bg{
     background-size: cover;
     background-position:center;
@@ -306,6 +297,9 @@ export default {
     }
   }
 
+  ol li {
+    list-style: none;
+  }
 
   th,td{
     padding:1.5rem;

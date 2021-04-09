@@ -37,18 +37,12 @@ import GrayCard from '@/components/GrayCard';
 import SectionHeader from '@/components/SectionHeader';
 
 export default {
-    data(){
-        return{
-
-        }
-    },
     components:{
       GrayCard,
       SectionHeader
     }
 }
 </script>
-
 <style lang='scss'>
 #basic-needs{
   background-size: cover;

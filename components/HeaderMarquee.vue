@@ -1,136 +1,29 @@
 <template>
   <div class="marquee hidden lg:block">
   <div>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
-    <p class="marquee-text sans-serif text-black mx-4" href="#">
-        Donate or volunteer to help out Nikkita for Nine
-    </p>
-    <span class="material-icons text-sm">
-        brightness_high
-    </span>
+    <template v-for="n in MARQUEE_LENGTH">
+        <p class="marquee-text sans-serif text-black mx-4" :key="n">
+            Donate or volunteer to help out Nikkita for Nine
+        </p>
+        <span class="material-icons text-sm" :key="n">
+            brightness_high
+        </span>
+    </template>
   </div>
 </div>
 </template>
 
 <script>
 export default {
-
+    data(){
+        return {
+            MARQUEE_LENGTH: 20
+        }
+    }
 }
 </script>
 
 <style lang="scss">
-$blue: #00e6de;
-$dark: #272727;
-$gray: #f0f0f0;
-$white: #ffffff;
-
 .marquee {
   height: 25px;
   width: 100%;
@@ -163,19 +56,8 @@ $white: #ffffff;
   }
 }
 
-
-// @keyframes marquee {
-//   0% { transform:translateX(0); }
-//   100% { transform:translateX(-100%); }
-// }
 @keyframes marquee {
   0% { left:0; }
   100% { left: -100%; }
 }
-/* .marquee-link{
-    color:Red;
-} */
-
-
-
 </style>

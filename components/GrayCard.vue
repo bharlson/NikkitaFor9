@@ -13,12 +13,6 @@
 
 <script>
 export default {
-    data(){
-        return{
-            title:'',
-            text: ''
-        }
-    },
     props: {
         title: String,
         text: String
@@ -26,7 +20,3 @@ export default {
 
 }
 </script>
-
-<style>
-
-</style>

@@ -2,10 +2,8 @@
 <div class="bg-gray p-12 border-t-2 border-b-2 lg:border-b-0">
     <nuxt-link 
     v-if="!external"
-    class="normal-case flex flex-row" 
+    class="normal-case flex flex-row justify-center" 
     :to="'/'+path"
-    :class="justify"
-    :left="false"
     >
         <h3 class="mt-2 text-center lg:text-left">
             {{text}}
@@ -27,33 +25,10 @@
 
 <script>
 export default {
-    data(){
-        return{
-            text:'',
-            path:'',
-            left: false
-        }
-    },
     props:{
         text: String,
         path: String,
-        left: Boolean,
         external: Boolean
     },
-    computed: {
-        justify(){
-            if(this.left){
-                return 'justify-center lg:justify-left'
-            }
-            else{
-                return 'justify-center'
-            }
-        }
-    }
-
 }
 </script>
-
-<style scoped lang="scss">
-
-</style>

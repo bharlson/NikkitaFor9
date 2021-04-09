@@ -68,7 +68,7 @@
                           </a>
 
                           <a href="https://twitter.com/Nikkita4Nine/" target="_blank">
-                              <img class="w-10" src="@/assets/img/icons/twitter.png" alt="instagram">
+                              <img class="w-10" src="@/assets/img/icons/twitter.png" alt="twitter">
                           </a>
                       </div>
                   </section>
@@ -88,10 +88,6 @@ export default {
 </script>
 
 <style lang='scss'>
-$blue:#00e6ed;
-$dark:#272727;
-$white:#ffffff;
-$gray:#f0f0f0;
 .footer-link{
     font-family: 'Open Sans', Verdana, Arial, sans-serif;
     text-transform: uppercase; 
