@@ -34,6 +34,9 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/components',
+    '~/plugins/composition-api.js',
+    '~/plugins/storyblok-rich-text-renderer.js'
   ],
 
   styleResources: {
@@ -49,7 +52,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    ['storyblok-nuxt', {
+      accessToken: 'TSd7ee3r2Vyv55m2XN5tBQtt',
+      cacheProvider: 'memory'
+    }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
