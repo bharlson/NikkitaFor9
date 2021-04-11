@@ -54,7 +54,7 @@ export default {
   modules: [
     '@nuxtjs/style-resources',
     ['storyblok-nuxt', {
-      accessToken: 'TSd7ee3r2Vyv55m2XN5tBQtt',
+      accessToken: process.env.STORYBLOK_TOKEN,
       cacheProvider: 'memory'
     }]
   ],
