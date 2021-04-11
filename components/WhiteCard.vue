@@ -14,13 +14,6 @@
 
 <script>
 export default {
-    data(){
-        return{
-            number:0,
-            title:'',
-            text: ''
-        }
-    },
     props: {
         number: Number,
         title: String,
@@ -29,7 +22,3 @@ export default {
 
 }
 </script>
-
-<style>
-
-</style>
