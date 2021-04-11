@@ -4,13 +4,13 @@
       <p>
           {{content.bodyText}}
       </p>
-      <p>{{richtext}}</p>
-      <rich-text-renderer></rich-text-renderer>
+      <h5>Rich text now works I guess?</h5>
+      <rich-text-renderer :document="richtext"/>
   </main>
 </template>
 
 <script>
-import { Block } from '@marvr/storyblok-rich-text-types';
+import Article from '@/components/Article.vue'
 
 export default {
     asyncData(context){
@@ -22,23 +22,24 @@ export default {
             console.log(res.data.story.content.body)
             return{
                 content: res.data.story.content.body[1],
-                richtext: res.data.story.content.body[2]
+                richtext: res.data.story.content.body[2].text
             }
         });
     },
-    props: {
-        blok: {
-            type: Object,
-            required: true
-        }
-    }
-    // props: ['text'],
-    // computed: {
-    //     richtext() {
-    //     return this.$storyapi.richTextResolver.render(this.text)
-    //     }
+    // components:{
+    //     Article
+    // },
+    // data () {
+    //     return {
+    //         story: { content: {} }
+    //         }
     // }
-    // ,
+    // props: {
+    //     blok: {
+    //         type: Object,
+    //         required: true
+    //     }
+    // },
     // mounted(){
     //     this.$storybridge.on('change', ()=>{
     //         location.reload(true);
