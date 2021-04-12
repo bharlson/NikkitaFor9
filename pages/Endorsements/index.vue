@@ -7,7 +7,6 @@
       :key="blok._uid"
       :blok="blok"
       :is="blok.component" />
-
       <div class="lg:col-span-2">
         <p><span class="bold serif text-2xl">*</span> : Indicates an individual endorsement, which does not necessarily reflect the views of the endorser's associated organization</p>
       </div>
