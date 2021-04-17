@@ -7,7 +7,12 @@
           <div class="flex flex-col bg-gray border-t-2 lg:border-t-0 lg:border-l-2 lg:border-b-2 md:col-span-6">
             <div class="p-12">
               <h3 class="text-center lg:text-left">Meet Nikkita Oliver</h3>
-              <rich-text-renderer :document="meetNikkita"/>
+              <!-- <rich-text-renderer :document="meetNikkita"/> -->
+              <component
+              v-for="blok in story.content.body"
+              :key="blok._uid"
+              :blok="blok"
+              :is="blok.component" />
               <!-- <p>Nikkita Oliver (they/them) is a community organizer, cultural worker, artist, attorney, and candidate for Seattle City Council Position 9. Nikkita has lived in Seattle, WA since 2004 and has served as a community support and cultural worker with Urban Impact, the Union Gospel Mission’s YROC (Youth Reach Out Center), the Urban Youth Leadership Academy, Seattle Urban Academy, Who’s Next?, Year Up, and Writers in School. They are currently Executive Director of
                 <a href="https://www.creativejusticenw.org/" target="_blank">Creative Justice</a>--an arts-based healing-engaged space for youth.  Nikkita Oliver was a founding member of the grassroots
                 <a href="https://seattlepeoplesparty.com/" target="_blank">Seattle Peoples Party</a>. And they are a part of several coalitions and organizations in the Seattle/King County region including
@@ -267,20 +272,43 @@ export default {
     SectionHeader,
     SectionFooterLink
   },
-  asyncData(context){
-        return context.app.$storyapi.get('cdn/stories/home',{
-            version: 'draft'
-            // version: context.isDev ? 'draft':'published',
+  mounted () {
+      // Use the input event for instant update of content
+      this.$storybridge.on('input', (event) => {
+        if (event.story.id === this.story.id) {
+          this.story.content = event.story.content
+        }
+      })
+      // Use the bridge to listen the events
+      this.$storybridge.on(['published', 'change'], (event) => {
+        // window.location.reload()
+        this.$nuxt.$router.go({
+          path: this.$nuxt.$router.currentRoute,
+          force: true,
         })
-        .then(res =>{
-          const pageContent = res.data.story.content.body
-          console.log(pageContent)
-            return{
-                meetNikkita: pageContent[0].text
-            }
-    
-        });
+      })
+    },
+    asyncData (context) {
+      // // This what would we do in real project
+      // const version = context.query._storyblok || context.isDev ? 'draft' : 'published'
+      // const fullSlug = (context.route.path == '/' || context.route.path == '') ? 'home' : context.route.path
+  
+      // Load the JSON from the API - loadig the home content (index page)
+      return context.app.$storyapi.get('cdn/stories/home', {
+        version: 'draft'
+      }).then((res) => {
+        return res.data
+      }).catch((res) => {
+        if (!res.response) {
+          console.error(res)
+          context.error({ statusCode: 404, message: 'Failed to receive content form api' })
+        } else {
+          console.error(res.response.data)
+          context.error({ statusCode: res.response.status, message: res.response.data })
+        }
+      })
     }
+
 }
 </script>
 
