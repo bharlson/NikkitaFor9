@@ -9,17 +9,11 @@
               <h3 class="text-center lg:text-left">Meet Nikkita Oliver</h3>
               <!-- <rich-text-renderer :document="meetNikkita"/> -->
               <component
-              v-for="blok in story.content.body"
-              :key="blok._uid"
-              :blok="blok"
-              :is="blok.component" />
-              <!-- <p>Nikkita Oliver (they/them) is a community organizer, cultural worker, artist, attorney, and candidate for Seattle City Council Position 9. Nikkita has lived in Seattle, WA since 2004 and has served as a community support and cultural worker with Urban Impact, the Union Gospel Mission’s YROC (Youth Reach Out Center), the Urban Youth Leadership Academy, Seattle Urban Academy, Who’s Next?, Year Up, and Writers in School. They are currently Executive Director of
-                <a href="https://www.creativejusticenw.org/" target="_blank">Creative Justice</a>--an arts-based healing-engaged space for youth.  Nikkita Oliver was a founding member of the grassroots
-                <a href="https://seattlepeoplesparty.com/" target="_blank">Seattle Peoples Party</a>. And they are a part of several coalitions and organizations in the Seattle/King County region including
-                <a href="https://decriminalizeseattle.com/" target="_blank">Decriminalize Seattle</a>,
-                <a href="https://www.instagram.com/freethemallwa/?hl=en" target="_blank">Free Them All WA</a>, and
-                <a href="https://nonewyouthjail.com/" target="_blank">No New Youth Jail</a> -- all of them building a world which centers collective health and liberation from oppressive systems.
-              </p> -->
+                v-for="blok in story.content.body"
+                :key="blok._uid"
+                :blok="blok"
+                :is="blok.component" 
+              />
             </div>
             <section-footer-link left="true" text="Learn more about Nikkita" path="about"></section-footer-link>
           </div>
@@ -75,43 +69,20 @@
         </section-footer-link>
       </section><!--/democracy vouchers-->
       <section id="our-vision">
-        <section-header class="lg:border-t-2" text="Our Vision for Seattle"></section-header>
-        <div class="grid grid-cols-1 lg:grid-cols-2
-        border-b-2">
-          <div class="flex flex-col 
-          border-b-2 lg:border-b-0 lg:border-r-2">
-            <div class="img-bg img-bg-vision img-bg-vision-basic-needs"></div>
-            <div class="p-4 border-t-2">
-              <h4 class="font-bold text-center mt-2">Basic Needs and Safety are intertwined</h4>
-            </div>
-          </div> <!--/col-->
-          <div class="flex flex-col">
-            <div class="img-bg img-bg-vision img-bg-vision-power"></div>
-            <div class="p-4 border-t-2">
-              <h4 class="font-bold text-center mt-2">Power comes from the people</h4>
-            </div>
-          </div> <!--/col-->
-        </div><!--/row 1-->
-
-        <div class="grid grid-cols-1 lg:grid-cols-2
-        ">
-          <div class="flex flex-col 
-          border-b-2 lg:border-b-0 lg:border-r-2">
-          <div class="img-bg img-bg-vision img-bg-vision-beyond-survival"></div>
-            <div class="p-4 border-t-2">
-              <h4 class="font-bold text-center mt-2">We must go beyond survival</h4>
-            </div>
-          </div> <!--/col-->
-          <div class="flex flex-col ">
-            <div class="img-bg img-bg-vision img-bg-vision-listening-posts"></div>
-            <div class="p-4 border-t-2">
-              <h4 class="font-bold text-center mt-2">Community Listening Posts</h4>
-            </div>
-          </div> <!--/col-->
-        </div><!--/row 2-->
-        <section-footer-link path="vision" text="Learn more about our vision"></section-footer-link>
+        <component
+          v-for="blok in story.content.OurVision"
+          :key="blok._uid"
+          :blok="blok"
+          :is="blok.component" 
+        />
       </section><!--/Our vision-->
       <section id="our-policies">
+        <component
+          v-for="blok in story.content.PoliciesWeBelieveIn"
+          :key="blok._uid"
+          :blok="blok"
+          :is="blok.component" 
+        />
         <section-header class="lg:border-t-2" text="The Policies We Believe In"></section-header>
         <div class="img-bg img-bg-policies-paper p-12 grid grid-cols-1">
           <table class="auto mx-auto w-100 border-2 border-black-100">
