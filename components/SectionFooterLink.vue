@@ -8,7 +8,7 @@
         <h3 class="mt-2 text-center lg:text-left">
             {{text}}
         </h3>
-        <div class="material-icons hidden md:block text-5xl ml-3">
+        <div class="material-icons hidden lg:block text-5xl ml-3">
             arrow_right_alt
         </div>
     </nuxt-link>
@@ -16,7 +16,7 @@
         <h3 class="mt-2 text-center">
             {{text}}
         </h3>
-        <div class="material-icons hidden md:block text-5xl ml-3">
+        <div class="material-icons hidden lg:block text-5xl ml-3">
             arrow_right_alt
         </div>
     </a>

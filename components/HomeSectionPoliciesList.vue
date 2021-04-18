@@ -1,181 +1,108 @@
 <template>
-<ol class="home-policies-list auto mx-auto w-100 border-2 border-black-100">
-    <li class="home-policies-list-item">Housing for All</li>
+  <div v-editable="blok" class="img-bg img-bg-policies-paper p-12 grid grid-cols-1">
+    <ol class="home-policies-list auto mx-auto w-100 border-2 border-black-100">
+      <li v-for="li in blok.listItems" :key="li._uid" class="home-policies-list-item">
+            <span class="home-policies-list-item-text">
+                <nuxt-link :to="'/policies#'+li.path">
+                {{li.text}}
+                </nuxt-link>
+            </span>
+            <span class="hidden md:flex home-policies-list-item-arrow">
+                <nuxt-link :to="'/policies#'+li.path">
+                    <span class="material-icons mt-2 text-3xl">
+                    arrow_right_alt
+                    </span>
+                </nuxt-link>
+            </span>
+        </li>
+    </ol>
+  </div>
+  <!--/img-bg-->
 
-
-
-    <!-- <table class="auto mx-auto w-100 border-2 border-black-100">
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">1</th>
-            <td>
-            <nuxt-link to="/policies#housing" class="">
-                Housing For All
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#housing">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">2</th>
-            <td>
-            <nuxt-link class="" to="/policies#divest">
-                Divest from Policing to Invest in Community
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#divest">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">3</th>
-            <td>
-            <nuxt-link to="/policies#environment">
-                Environmental Justice
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#environment">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">4</th>
-            <td>
-            <nuxt-link to="/policies#children">
-                Children, Youth, and Families Deserve to Thrive
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#children">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">5</th>
-            <td>
-            <nuxt-link to="/policies#justice">
-                Racial &amp; Economic Justice
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#justice">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">6</th>
-            <td>
-            <nuxt-link to="/policies#disaster-relief">
-                Disaster Relief &amp; Preparing for Disasters
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#disaster-relief">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">7</th>
-            <td>
-            <nuxt-link to="/policies#arts">
-                Thriving Sustained Local Arts and Culture Community
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#arts">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">8</th>
-            <td>
-            <nuxt-link to="/policies#healthcare">
-                Universal Healthcare
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#healthcare">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-        <tr>
-            <th class="border-2 bg-black text-white border-black-100">9</th>
-            <td>
-            <nuxt-link to="/policies#democracy">
-                Democracy and Participation
-            </nuxt-link>
-            </td>
-            <td>
-            <nuxt-link to="/policies#democracy">
-                <span class="material-icons mt-2 text-3xl">
-                arrow_right_alt
-                </span>
-            </nuxt-link>
-            </td>
-        </tr>
-    </table> -->
-</ol>
 </template>
 
 <script>
-export default {
-
-}
+  import HomeSectionPoliciesListItem from '@/components/HomeSectionPoliciesListItem.vue';
+  export default {
+    data() {
+      return {
+        story: {
+          content: {}
+        }
+      }
+    },
+    props: {
+      blok: {
+        type: Object,
+        required: true
+      }
+    },
+    components: {
+      HomeSectionPoliciesListItem
+    }
+  }
 </script>
 
-<style lang="scss" scoped>
-.home-policies-list {
-  display:inline-flex;
-  flex-direction:column;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  border-top:2px solid black;
-  border-left:2px solid black;
-  border-right:2px solid black;
-  &-item{
-        counter-increment: step-counter;
-        display:flex;
-        flex-direction:row;
-        padding:2rem;
-        border-bottom:2px solid black;
-        border-bottom:2px solid black;
-        &::before {
-            content: counter(step-counter);
-            display:block;
-            color: #ffffff;
-            font-weight: bold;
-            padding: 3px 8px;
-            border-right:2px solid black;
-        }
-  }
-}
-</style>
+<style lang="scss">
+  .home-policies-list {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 720px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 
+    &-item {
+      counter-increment: step-counter;
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1 2;
+      justify-content: start;
+      border-bottom: 2px solid black;
+      overflow: hidden;
+      background-color: #ffffff;
+      margin-bottom: 0;
+
+      &:last-of-type {
+        border-bottom: none;
+      }
+
+      &::before {
+        content: counter(step-counter);
+        font-family: $serif;
+        top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2rem;
+        color: #ffffff;
+        background-color: black;
+        font-weight: bold;
+        text-align: center;
+        padding: 1rem;
+        border-right: 2px solid black;
+          @media (min-width: $md) {
+              padding:1.5rem;
+          }
+      }
+
+      &-text {
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-style: italic;
+        flex-basis: 0;
+        flex-grow: 1;
+        // justify-self:start;
+      }
+
+      &-arrow {
+        padding: 0 1rem 0 0;
+        // display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // justify-self: end;
+      }
+    }
+  }
+</style>
