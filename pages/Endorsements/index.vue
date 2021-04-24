@@ -1,7 +1,7 @@
 <template>
   <main >
     <section-header text="Endorsements"></section-header>
-    <div class="bg-gray p-4 md:px-24 lg:px-40 grid grid-cols-1 lg:grid-cols-2 gap-4 mx-auto pb-12">
+    <div class="bg-gray p-4 md:px-24 lg:px-40 grid grid-cols-1 lg:grid-cols-2 gap-4 items-start mx-auto pb-12">
       <component
       v-for="blok in story.content.body"
       :key="blok._uid"
@@ -11,7 +11,6 @@
         <p><span class="bold serif text-2xl">*</span> : Indicates an individual endorsement, which does not necessarily reflect the views of the endorser's associated organization</p>
       </div>
     </div>
-
   </main>
 </template>
 

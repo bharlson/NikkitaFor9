@@ -8,7 +8,7 @@
         class="p-4 mb-4 border-2 lg:px-12 border-t-0 bg-gray"
         v-if="blok.body"
       >
-        <p>{{ blok.body }}</p>
+        <rich-text-renderer :document="blok.body" />
       </div>
     </article>
   </section>
