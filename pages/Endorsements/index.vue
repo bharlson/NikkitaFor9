@@ -65,7 +65,7 @@ export default {
                           },
                           {
                             "name": "IUPAT DC 5",
-                            "title": ""
+                            "title": "Labor Union"
                           },
                           {
                             "name": "Seattle Peoples Party",
@@ -179,6 +179,30 @@ export default {
                           {
                             "name": "Tyna Ek *",
                             "title": "Seattle Attorney"
+                          },
+                                                    {
+                            "name": "UAW Local 4121",
+                            "title": "Labor Union"
+                          },
+                          {
+                            "name": "CARW",
+                            "title": "Coalition of Anti-Racist Whites"
+                          },
+                                                    {
+                            "name": "SDSA",
+                            "title": "Seattle Democratic Socialists of America"
+                          },
+                                                    {
+                            "name": "Seattle Indivisible",
+                            "title": ""
+                          },
+                                                    {
+                            "name": "Book Workers Union",
+                            "title": "Labor Union"
+                          },
+                          {
+                            "name": "WAESN",
+                            "title": "WA Ethnic Studies Now"
                           }
                         ]
         }
