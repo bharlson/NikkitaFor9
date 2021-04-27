@@ -7,9 +7,8 @@
           <div class="flex flex-col bg-gray border-t-2 lg:border-t-0 lg:border-l-2 lg:border-b-2 md:col-span-6">
             <div class="p-12">
               <h3 class="text-center lg:text-left">Meet Nikkita Oliver</h3>
-              <!-- <rich-text-renderer :document="meetNikkita"/> -->
               <component
-                v-for="blok in story.content.body"
+                v-for="blok in story.content.intro"
                 :key="blok._uid"
                 :blok="blok"
                 :is="blok.component" 
