@@ -21,7 +21,6 @@ export default {
   },
   mounted() {
     // Use the input event for instant update of content
-    console.log("mounted");
     this.$storybridge.on("input", (event) => {
       if (event.story.id === this.story.id) {
         this.story.content = event.story.content;
@@ -37,14 +36,13 @@ export default {
     });
   },
   asyncData(context) {
-    // // This what would we do in real project
-    // const version = context.query._storyblok || context.isDev ? 'draft' : 'published'
-    // const fullSlug = (context.route.path == '/' || context.route.path == '') ? 'home' : context.route.path
+    const version = context.query._storyblok || context.isDev ? 'draft' : 'published'
+    const fullSlug = (context.route.path == '/' || context.route.path == '') ? 'home' : context.route.path
 
     // Load the JSON from the API - loadig the home content (index page)
     return context.app.$storyapi
-      .get("cdn/stories/policies", {
-        version: "draft",
+      .get(fullSlug, {
+        version: version,
       })
       .then((res) => {
         return res.data;
