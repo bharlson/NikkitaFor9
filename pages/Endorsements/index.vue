@@ -28,7 +28,6 @@ export default {
     },
     mounted () {
       // Use the input event for instant update of content
-      console.log('mounted')
       this.$storybridge.on('input', (event) => {
         if (event.story.id === this.story.id) {
           this.story.content = event.story.content
