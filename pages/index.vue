@@ -9,7 +9,7 @@
               <h3 class="text-center lg:text-left">Meet Nikkita Oliver</h3>
               <!-- <rich-text-renderer :document="meetNikkita"/> -->
               <component
-                v-for="blok in story.content.body"
+                v-for="blok in story.content.intro"
                 :key="blok._uid"
                 :blok="blok"
                 :is="blok.component" 
@@ -106,12 +106,12 @@ export default {
     },
     asyncData (context) {
       // // This what would we do in real project
-      // const version = context.query._storyblok || context.isDev ? 'draft' : 'published'
-      // const fullSlug = (context.route.path == '/' || context.route.path == '') ? 'home' : context.route.path
+      const version = context.query._storyblok || context.isDev ? 'draft' : 'published'
+      const fullSlug = (context.route.path == '/' || context.route.path == '') ? 'home' : context.route.path
   
       // Load the JSON from the API - loadig the home content (index page)
-      return context.app.$storyapi.get('cdn/stories/home', {
-        version: 'draft'
+      return context.app.$storyapi.get('cdn/stories/' + fullSlug, {
+        version: version
       }).then((res) => {
         return res.data
       }).catch((res) => {

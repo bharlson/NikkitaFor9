@@ -56,7 +56,7 @@
       display: flex;
       flex-direction: row;
       flex-grow: 1 2;
-      justify-content: start;
+      justify-content: flex-start;
       border-bottom: 2px solid black;
       overflow: hidden;
       background-color: #ffffff;

@@ -54,15 +54,14 @@ export default {
   modules: [
     '@nuxtjs/style-resources',
     ['storyblok-nuxt', {
-      // accessToken: process.env.STORYBLOK_TOKEN,
-      accessToken: 'TSd7ee3r2Vyv55m2XN5tBQtt',
+      accessToken: (process.env.NODE_ENV !== 'production') ? 
+      process.env.STORYBLOK_PREVIEW_TOKEN : 
+      process.env.STORYBLOK_PUBLIC_TOKEN,
       cacheProvider: 'memory'
     }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    ssr: false,
-    target: 'server'
   }
 }
