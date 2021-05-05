@@ -34,5 +34,7 @@ export default {
 <style scoped>
     section {
         background-image: var(--url);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 </style>
