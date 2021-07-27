@@ -1,5 +1,5 @@
 <template>
-    <article class="text-center bg-white" v-editable="blok">
+    <article class="col-span-2 lg:col-span-1 text-center bg-white" v-editable="blok">
       <div class="border-2">
         <h3 class="p-2 text-center bg-white" v-if="blok.name">{{blok.name}}</h3>
       </div>
