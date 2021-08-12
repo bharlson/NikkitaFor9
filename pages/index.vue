@@ -20,7 +20,7 @@
         </div><!--/grid-->
       </section><!--/Meet Nikkita-->
       <section id="democracy-vouchers">
-        <section-header class="hidden lg:block" text="Get Involved Today!"></section-header>
+        <section-header text="Get Involved Today!"></section-header>
         <div class="grid grid-cols-1">
           <section id="volunteer" class="lg:border-r-2">
                 <!-- <section-header text="Volunteer"></section-header> -->
@@ -55,7 +55,7 @@
         </section-footer-link> -->
       </section>
       <!--/democracy vouchers-->
-      <section id="our-vision">
+      <section id="our-vision" class="border-t-2 lg:border-t-0">
         <component
           v-for="blok in story.content.OurVision"
           :key="blok._uid"
