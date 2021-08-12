@@ -21,9 +21,9 @@
       </section><!--/Meet Nikkita-->
       <section id="democracy-vouchers">
         <section-header class="hidden lg:block" text="Get Involved Today!"></section-header>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="grid grid-cols-1">
           <section id="volunteer" class="lg:border-r-2">
-                <section-header text="Volunteer"></section-header>
+                <!-- <section-header text="Volunteer"></section-header> -->
                 <div class="bg-gray py-8">
                     <p class="text-center">Volunteer for our campaign by signing up below</p>
                     <p class="mt-4 text-center">
@@ -34,7 +34,7 @@
                 </div>
           </section>
           <!--/Sign Up-->
-          <section id="donate" class="border-t-2 lg:border-t-0">
+          <!-- <section id="donate" class="border-t-2 lg:border-t-0">
               <section-header text="donate"></section-header>
               <div class="bg-gray py-8">
                   <p class="text-center">Donate to our campaign</p>
@@ -44,16 +44,17 @@
                     </a>
                   </p>
               </div>
-          </section>
+          </section> -->
           <!--/Donate-->
       </div>
-        <section-footer-link 
+        <!-- <section-footer-link 
         text="Submit your Democracy Vouchers online!" 
         path="http://tinyurl.com/SeattleVouchers"
         external
         >
-        </section-footer-link>
-      </section><!--/democracy vouchers-->
+        </section-footer-link> -->
+      </section>
+      <!--/democracy vouchers-->
       <section id="our-vision">
         <component
           v-for="blok in story.content.OurVision"
