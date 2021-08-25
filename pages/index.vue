@@ -22,7 +22,7 @@
       <section id="democracy-vouchers">
         <section-header text="Get Involved Today!"></section-header>
         <div class="grid grid-cols-1">
-          <section id="volunteer" class="lg:border-r-2">
+          <section id="volunteer">
                 <!-- <section-header text="Volunteer"></section-header> -->
                 <div class="bg-gray py-8">
                     <p class="text-center">Volunteer for our campaign by signing up below</p>
