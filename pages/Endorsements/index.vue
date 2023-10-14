@@ -18,11 +18,6 @@
 import SectionHeader from '@/components/SectionHeader';
 
 export default {
-    data(){
-        return{
-          story: { content: {} },
-        }
-    },
     components:{
       SectionHeader
     },
